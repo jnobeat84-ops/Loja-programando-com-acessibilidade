@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Police Station: Night Shift</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            border: 5px solid #1a1a40;
+        }
+        h1 {
+            font-size: 50px;
+            text-shadow: 2px 2px #ff0000, -2px -2px #0000ff;
+            letter-spacing: 5px;
+        }
+        .menu {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        button {
+            background: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 15px 40px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: white;
+            color: black;
+            box-shadow: 0 0 15px #0000ff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>POLICE NIGHT</h1>
+    
+    <div class="menu">
+        <button onclick="alert('Iniciando Turno...')">NOVO CASO</button>
+        <button>CONTINUAR</button>
+        <button>ARQUIVOS</button>
+        <button>SAIR</button>
+    </div>
+
+</body>
+</html>
